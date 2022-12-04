@@ -1,0 +1,167 @@
+/* universal */
+body, h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, serif;
+  }
+* {
+    box-sizing: border-box;
+}
+/* Navigation Bar */
+@media screen and (max-width:800px) {
+    li {
+        font-size:small;
+    }    
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color: whitesmoke;
+}
+li {
+    float:left;
+}
+a {
+    display: block;
+    padding: 15px 20px;
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    color: white;
+    background-color: rgb(46, 45, 45);
+}
+a:active {
+    color: white;
+    background-color: black;
+}
+/* Header */
+img {
+    width: 100%;
+    height: auto;
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(2, 2, 2, 0.364);
+    width:100%;
+    height: auto;
+}
+/* Inrtoduce */
+@media screen and (max-width: 800px) {
+    .right-content, .left-content2 {
+        justify-content: none;
+        align-items: none;
+    }    
+}
+.left-content {
+    float: left;
+    width: 50%;
+    height: auto;
+    padding-left: 20px;
+    padding-right: 10px;
+
+}
+.right-content {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 400px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+.left-content2 {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55%;
+    height: 400px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+.right-content2 {
+    float: left;
+    width: 45%;
+    height: auto;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+/* Pizza Menu */
+table {
+    width: 100%;
+    font-family:cursive;
+}
+.table-label {
+    padding: 15px;
+    font-size: 30px;
+}
+th, td {
+    border-bottom: 2px solid ghostwhite;
+    text-align: center;
+    padding: 10px;
+    font-size: large;
+}
+tr:nth-child(even) {
+    background-color: LemonChiffon;
+}
+/* About Us */
+.title {
+    font-size: 35px;
+    text-align: center;
+    color: white;
+    background-color:rgb(46, 45, 45);
+    padding: 5px;
+}
+.text-p {
+    display: inline-block;
+    text-align: center;
+    font-size: 2vw;
+    line-height: 0;
+}
+.chef-position {
+    display: inline-block;
+    text-align: center;
+    font-size: 1.5vw;
+    line-height: 0;
+    color: gray;
+}
+.chef-para {
+    font-size: 15px;
+    text-align: justify;
+    padding: 15px;
+    margin-left: 4px;
+    margin-right: 4px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+/* Hours & Contact */
+.hours {
+    margin-top: 5px;
+    text-align: center;
+    color: seagreen;
+    font-size: 15px;
+    border: 3px dotted seagreen;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+/* Footer */
+footer {
+    margin-top: 5px;
+    text-align: center;
+    padding: 40px;
+    background-color: whitesmoke;
+    color: black;
+    font-size: 20px;
+}
